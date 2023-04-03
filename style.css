@@ -1,0 +1,70 @@
+body{
+    font-family: 'Highbinder Display Font', Times, serif;
+	height: 100vh;
+	width: 100%;
+	background:linear-gradient(180deg,rgb(0, 0, 0) 20%,rgb(79, 85, 64) 30%, rgb(0, 43, 0)80%);
+    color:#ffd700 
+}
+#charge{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+
+	visibility: hidden;
+}
+
+#button{
+	
+	width: 15%;
+	background: rgb(158, 3, 3);
+	color: yellow;
+	}
+
+
+
+#logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+}
+
+#info{
+	text-align: center;
+	padding: 30px;
+	visibility: hidden;
+	}
+
+#jeu{
+		text-align: center;
+		
+		visibility: hidden;
+		}
+
+
+#b{
+	text-align: center;
+}
+
+
+
+.formulaire {  
+	display: inline;
+	
+	flex-flow: row wrap;
+	align-items: center;
+	background: rgb(40, 51, 40);
+	border: 0.5px solid #1d1d02;
+  }
+
+
+#form{
+	visibility: visible;
+}  
+#tirage1{
+	visibility: hidden;
+}
+#msg1{
+	visibility: hidden;
+}    

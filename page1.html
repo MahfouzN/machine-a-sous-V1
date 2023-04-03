@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <img id="logo" src="casi7.gif" />
+
+    <div class="formulaire" id="form" >
+        
+        <form method="get">
+           
+                
+          
+            <br><br>
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" >
+            <label for="prtf">portfeuille:</label>
+            <input type="number" min="90" max="1000000" id="prtf" name="prtf" value="90" >
+            <label for="niveau">Veuillez preciser le niveau:</label>
+
+            <select name="niveau" id="niveau">
+                <option value="moyen">Moyen</option>
+                <option value="facile">Facile</option>
+                <option value="difficile">Difficile</option>
+            </select>
+            
+            <input id="button" type="button" onclick="start()"value="lancer"/>
+        </div>
+    </form>
+    <img id="charge" src="chargeur.gif" />
+
+    <div id="tirage1">
+        tirage : <span id="tirage1"></span> 
+    </div>
+       
+    <div id="jeu">
+
+        <div>
+            Joueur : <span id="joueur"></span> 
+        </div>
+
+       <div>
+        Niveau : <span id="level"></span> 
+       </div>
+
+        <div>
+            Votre solde est de : <span id="solde"></span>F 
+        </div>
+        <div  id="info">
+       
+      <span id="resultat"></span> 
+     
+    </div>
+    <img id="charge" src="giphy.gif" />
+    <div id="formulaire">
+        <form method="get">
+            
+            <label for="mise">mise:</label>
+
+            <input type="number" min="90" max="1000000" id="mise" name="mise" value="90"><br><br>
+       
+           
+             <input id="button" type="button" onclick="jouer()"value="JOUER"/>
+           
+            
+        </form>
+       
+    </div>
+</div>
+    
+    
+   
+        
+
+</body>
+
+<script type="text/javascript" src="fonctionsAjax.js"></script>
+<script type="text/javascript" src="fonctionsMachine.js"></script>
+<script type="text/javascript" src="trtm1.js"></script>
+</html>
